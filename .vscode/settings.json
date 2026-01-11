@@ -1,0 +1,8 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "editor.mouseWheelZoom": true,
+  "editor.autoClosingDelete": "always",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+}
