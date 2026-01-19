@@ -1,0 +1,44 @@
+/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
+/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "gsap/ScrollTrigger": ["node_modules/gsap/types/scroll-trigger.d.ts"],
+      "gsap/ScrollToPlugin": ["node_modules/gsap/types/scroll-to-plugin.d.ts"],
+      "gsap/TextPlugin": ["node_modules/gsap/types/text-plugin.d.ts"],
+      "gsap/Flip": ["node_modules/gsap/types/flip.d.ts"],
+      "gsap/Draggable": ["node_modules/gsap/types/draggable.d.ts"],
+      "gsap/MotionPathPlugin": ["node_modules/gsap/types/motion-path-plugin.d.ts"],
+      "gsap/Observer": ["node_modules/gsap/types/observer.d.ts"]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ]
+}

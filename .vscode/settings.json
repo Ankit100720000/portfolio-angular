@@ -1,0 +1,11 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "on",
+  "editor.mouseWheelZoom": true,
+  "editor.autoClosingDelete": "always",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "css.lint.unknownAtRules": "ignore",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
